@@ -23,8 +23,8 @@ class MarbleNode: SKSpriteNode {
         physicsBody?.categoryBitMask = BitMaskCategories.ball.rawValue
         physicsBody?.collisionBitMask = BitMaskCategories.wall.rawValue | BitMaskCategories.gate.rawValue | BitMaskCategories.paddle.rawValue | BitMaskCategories.ball.rawValue
         physicsBody?.allowsRotation = false
-        physicsBody?.linearDamping = 0.01
-        physicsBody?.friction = 0.01
+        physicsBody?.linearDamping = 0
+        physicsBody?.friction = 0
         physicsBody?.restitution = 0.1
     }
     

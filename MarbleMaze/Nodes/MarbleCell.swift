@@ -19,7 +19,7 @@ class MarbleCell: SKSpriteNode {
         let numberNode = SKLabelNode(fontNamed: "Chalkduster")
         numberNode.fontSize = 20
         numberNode.text = String(number)
-        numberNode.zPosition = 1
+        numberNode.zPosition = 2
         
         addChild(numberNode)
     }
